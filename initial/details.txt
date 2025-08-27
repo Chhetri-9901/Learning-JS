@@ -2,5 +2,6 @@ Reference Course: https://www.udemy.com/course/the-complete-javascript-course/?c
 
 Questions 
 A. GeekforGeeks: https://www.geeksforgeeks.org/javascript/practice-javascript-online/
-    1. Convert string to integer without using parseInt() function 
-    2. Generate all combinations of a string
+    1. Convert string to integer without using parseInt() function [26/08/2025]
+    2. Generate all combinations of a string [26/08/2025] [27/08/2025]
+    3. Click me button and dark and light mode [27/08/2025]
