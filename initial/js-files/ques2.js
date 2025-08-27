@@ -24,8 +24,11 @@ console.log("Final vaue: " + dogArr);
 for (let i = 0; i < dogStr.length; i++) {
   let newIndexDogValue = dogStr.charAt(i);
   let tempArr = [newIndexDogValue];
-  console.log(newIndexDogValue);
-  tempArr.push(dogArr + newIndexDogValue);
-  console.log(tempArr);
+  
+  for(let item of dogArr) {
+    tempArr.push(item + newIndexDogValue);
+  }
+
+  dogArr = dogArr.concat(tempArr);
 }
 console.log("Final vaue: " + dogArr);
