@@ -1,0 +1,17 @@
+.invisible-text {
+    margin-bottom: 20px;
+}
+
+.visible {
+    display: block;
+}
+
+.user-input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    button {
+        margin-bottom: 20px;
+    }
+}

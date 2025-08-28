@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
+
 <body>
-
     <!-- Question 3 -->
-     <h1 class="light-mode">Welcome to click button</h1>
-     <h3>Please click on the below button to display the hidden text</h3>
-     <button type="button" id="hidden-text-btn">Click Me</button>
-     <p class="hidden">Hello there!!!</p>
+    <h1 class="light-mode">Welcome to click button</h1>
+    <h3>Please click on the below button to display the hidden text</h3>
+    <div class="invisible-text">
+        <button type="button" id="hidden-text-btn">Click Me</button>
+        <p class="hidden">Hello there!!!</p>
+    </div>
+    <!-- Question 4 -->
+    <div class="user-input">
+        <button type="button" class="user-input-button">
+            Click to add your text.
+        </button>
+        <textarea name="user-input-text" id="user-text"></textarea>
+        <p class="user-input-value"></p>
+    </div>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="script.js"></script>
 </body>
+
 </html>
