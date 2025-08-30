@@ -16,14 +16,15 @@ h1 {
 }
 
 body:has(.light-mode) {
-    background-color: white;
+  background-color: white;
 }
 body:has(.dark-mode) {
-    background-color: black;
+  background-color: black;
 
-    h3, p {
-        color: white;
-    }
+  h3,
+  p {
+    color: white;
+  }
 }
 
 .light-mode::before {

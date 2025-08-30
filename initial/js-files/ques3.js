@@ -3,8 +3,8 @@ const hiddenTxt = document.querySelector(".hidden");
 const mainHeader = document.querySelector("h1");
 
 clickMeBtn.addEventListener("click", function () {
-  hiddenTxt.classList.toggle('visible');
-  hiddenTxt.classList.toggle('hidden');
+  hiddenTxt.classList.toggle("visible");
+  hiddenTxt.classList.toggle("hidden");
 });
 
 mainHeader.addEventListener("click", () => {

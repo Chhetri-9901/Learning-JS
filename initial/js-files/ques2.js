@@ -11,7 +11,7 @@ let dogArr = [];
 
 //  Approach 1: Use .push() and .slice() method
 for (let i = 0; i < dogStr.length; i++) {
-  for (let j = i+1; j < dogStr.length + 1; j++) {
+  for (let j = i + 1; j < dogStr.length + 1; j++) {
     let indexDogValue = dogStr.slice(i, j);
     console.log(indexDogValue);
     dogArr.push(indexDogValue);
@@ -24,8 +24,8 @@ console.log("Final vaue: " + dogArr);
 for (let i = 0; i < dogStr.length; i++) {
   let newIndexDogValue = dogStr.charAt(i);
   let tempArr = [newIndexDogValue];
-  
-  for(let item of dogArr) {
+
+  for (let item of dogArr) {
     tempArr.push(item + newIndexDogValue);
   }
 
