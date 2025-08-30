@@ -6,3 +6,5 @@ A. GeekforGeeks: https://www.geeksforgeeks.org/javascript/practice-javascript-on
     2. Generate all combinations of a string [26/08/2025] [27/08/2025]
     3. Click me button and dark and light mode [27/08/2025]
     4. Add a text field and take a user's input. [28/08/2025]
+    5. Watch Lecture video [29/08/2025]
+    6. Check whether a string is palindrome or not [30/08/2025]
