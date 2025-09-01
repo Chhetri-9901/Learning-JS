@@ -8,3 +8,5 @@ A. GeekforGeeks: https://www.geeksforgeeks.org/javascript/practice-javascript-on
     4. Add a text field and take a user's input. [28/08/2025]
     5. Watch Lecture video [29/08/2025]
     6. Check whether a string is palindrome or not [30/08/2025]
+    7. Watch Lecture video [31/08/2025]
+    8. Mask Credit Card [01/09/2025]

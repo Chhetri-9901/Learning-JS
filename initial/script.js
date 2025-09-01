@@ -3,7 +3,8 @@ const allFiles = [
     "ques2.js",
     "ques3.js",
     "ques4.js",
-    "ques6.js"
+    "ques6.js",
+    "ques8.js"
 ];
 
 allFiles.forEach(file => {
