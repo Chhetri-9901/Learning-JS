@@ -1,0 +1,15 @@
+Reference Course: https://www.udemy.com/course/the-complete-javascript-course/?couponCode=MT260825G2
+
+Questions 
+A. GeekforGeeks: https://www.geeksforgeeks.org/javascript/practice-javascript-online/
+    1. Convert string to integer without using parseInt() function [26/08/2025]
+    2. Generate all combinations of a string [26/08/2025] [27/08/2025]
+    3. Click me button and dark and light mode [27/08/2025]
+    4. Add a text field and take a user's input. [28/08/2025]
+    5. Watched Lecture video [29/08/2025]
+    6. Check whether a string is palindrome or not [30/08/2025]
+    7. Watched Lecture video [31/08/2025]
+    8. Mask Credit Card [01/09/2025]
+    9. Watched Lecture video [02/09/2025]
+    10. Watched Lecture video [03/09/2025]
+    11. Watched Lecture video on Closure amd understanding it. [04/09/2025]
