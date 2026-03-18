@@ -1,0 +1,35 @@
+.cmp-slick {
+    img {
+        width: 100%;
+    }
+
+    .cmp-slick__button {
+        display: flex;
+        justify-content: space-between;
+        padding-block: 5%;
+        padding-inline: 10%;
+
+        .slick-arrow {
+            min-width: 68px;
+        }
+    }
+
+    .slick-dots {
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        list-style-type: none;
+
+        button {
+            border-radius: 50%;
+            border: none;
+        }
+    }
+
+    li:not(:last-child) {
+        margin-right: 5px;
+    }
+}

@@ -1,6 +1,7 @@
-var $jg = globalThis.$;
-var $slider = $jg('.cmp-slick__content-wrapper');
-var $breakpoint = 769;
+const $jg = (globalThis as any).$;
+const $slider = $jg('.cmp-slick__content-wrapper');
+const $breakpoint = 769;
+
 $slider.slick({
     mobileFirst: true,
     arrows: true,
@@ -15,7 +16,7 @@ $slider.slick({
     responsive: [
         {
             breakpoint: $breakpoint,
-            settings: 'unslick'
+            settings:'unslick'
         }
     ]
-});
+})
