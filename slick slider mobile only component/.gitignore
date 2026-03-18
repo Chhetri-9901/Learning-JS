@@ -1,0 +1,17 @@
+# Use a hashtag for comments
+
+# 1. Ignore specific folders (add a trailing slash)
+node_modules/
+build/
+**/node_modules/
+
+# 2. Ignore specific files
+.env
+database.sqlite3
+
+# 3. Ignore all files with a specific extension (using the * wildcard)
+*.log
+*.zip
+
+# 4. Ignore Mac system files
+.DS_Store
