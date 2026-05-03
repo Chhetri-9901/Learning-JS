@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://vjs.zencdn.net/8.23.7/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <h1>Video component</h1>
+
+        <video 
+            id="mlbb-video-one" class="video-js" 
+            controls preload="metadata" width="640" 
+            height="254" poster="https://creditcards.chase.com/K-SWA/images/events_posterimage.jpg" data-setup="{}"
+            >
+            <source src="./I Found Why Top Solo Players Are SPAMMING IXIA in MLBB.mp4" type="video/mp4" />
+            <p class="vjs-no-js">
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">
+                    supports HTML5 video
+                </a>
+
+        </video>
+    </section>
+
+                <div class="cmp-video">
+                <div class="cmp-video__container">
+
+                    <div class="cmp-video__card cmp-video__card__non-ad" data-video-id="swa_event_s">
+                        <div data-pt-name="swa_event">
+                            <video
+                                id="swa_event_s"
+                                class="video-js vjs-default-skin vjs-big-play-centered"
+                                preload="metadata"
+                                controls
+                                width="600"
+                                height="400"
+                                poster="https://creditcards.chase.com/K-SWA/images/events_posterimage.jpg"
+                                data-setup='{
+                                "inactivityTimeout": 0,
+                                "textTrackSettings": true,
+                                "notSupportedMessage": "Video is currently unavailable. Please try again later.",
+                                "errorDisplay": { "description": "Error loading video" },
+                                "controlBar": {
+                                    "children": [
+                                    "playToggle",
+                                    "currentTimeDisplay",
+                                    "timeDivider",
+                                    "durationDisplay",
+                                    "progressControl",
+                                    "captionsButton",
+                                    "muteToggle",
+                                    "volumeControl",
+                                    "fullscreenToggle"
+                                    ]
+                                }
+                                }'
+                                webkit-playsinline
+                            >
+                                <source
+                                    src="./ixia_YCACT.mp4"
+                                >
+                                <track
+                                    kind="captions"
+                                    src="/K-SWA/media/240322_Rapid_Rewards_Access_Events_Sizzle.vtt"
+                                    srclang="en"
+                                    label="English"
+                                >
+                            </video>
+
+                            <div class="vjs-default-skin cmp-video__transcript">
+                                <a
+                                    href="/K-SWA/media/240322_Rapid_Rewards_Access_Events_Sizzle_Transcript.html"
+                                    target="_blank"
+                                >
+                                    Transcript
+                                    <span class="visually-hidden vjs-control-text">
+                                        (Opens in New Window)
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="cmp-video__audio-description">
+                            <a href="#swa_event_sa">Turn on audio description</a>
+                        </div>
+                    </div>
+
+                    <div class="cmp-video__card cmp-video__card__ad" data-video-id="swa_event_sa">
+                        <div data-pt-name="swa_event">
+                            <video
+                                id="swa_event_sa"
+                                class="video-js vjs-default-skin vjs-big-play-centered"
+                                preload="metadata"
+                                controls
+                                width="600"
+                                height="400"
+                                poster="/K-SWA/images/events_posterimage.jpg"
+                                data-setup='{
+                                "inactivityTimeout": 0,
+                                "textTrackSettings": true,
+                                "notSupportedMessage": "Video is currently unavailable. Please try again later.",
+                                "errorDisplay": { "description": "Error loading video" },
+                                "controlBar": {
+                                    "children": [
+                                    "playToggle",
+                                    "currentTimeDisplay",
+                                    "timeDivider",
+                                    "durationDisplay",
+                                    "progressControl",
+                                    "captionsButton",
+                                    "muteToggle",
+                                    "volumeControl",
+                                    "fullscreenToggle"
+                                    ]
+                                }
+                                }'
+                                webkit-playsinline
+                            >
+                                <source
+                                    src="./I Found Why Top Solo Players Are SPAMMING IXIA in MLBB.mp4"
+                                >
+                                <track
+                                    kind="captions"
+                                    src="/K-SWA/media/240322_Rapid_Rewards_Access_Events_Sizzle_AD.vtt"
+                                    srclang="en"
+                                    label="English"
+                                >
+                            </video>
+
+                            <div class="vjs-default-skin cc-container left">
+                                <a
+                                    href="/K-SWA/media/240322_Rapid_Rewards_Access_Events_Sizzle_Transcript.html"
+                                    target="_blank"
+                                >
+                                    Transcript
+                                    <span class="visually-hidden vjs-control-text">
+                                        (Opens in New Window)
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="cmp-video__audio-description">
+                            <a href="#swa_event_s">Turn off audio description</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    <script src="https://vjs.zencdn.net/8.23.7/video.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

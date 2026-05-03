@@ -1,0 +1,78 @@
+
+.cmp-video {
+  max-width: 60rem;
+  margin-inline: auto;
+}
+
+.cmp-video__container {
+  width: 100%;
+  background-color: #000;
+  position: relative;
+  height: auto;
+}
+
+.cmp-video__card {
+  width: 100%;
+}
+
+.cmp-video__card a {
+  color: #fff;
+  font-size: 0.8rem;
+  text-decoration: underline;
+  display: block !important;
+}
+
+.cmp-video .video-js {
+  width: 100%;
+  height: auto;
+}
+
+.cmp-video .video-js .vjs-tech {
+  height: auto !important;
+  position: relative !important;
+  cursor: pointer;
+}
+
+.cmp-video .vjs-poster img {
+  height: auto;
+}
+
+.cmp-video .video-js .vjs-control-bar {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3em;
+  background-color: rgba(43, 51, 63, 0.7);
+}
+
+.cmp-video .vjs-big-play-button {
+  /* intentionally left blank */
+}
+
+.cmp-video__audio-description {
+  position: absolute;
+  right: 5px;
+  padding-top: 4px;
+  padding-right: 10px;
+}
+
+.cmp-video__transcript {
+  padding-top: 4px;
+  margin-left: 10px;
+  text-align: center;
+  float: left !important;
+}
+
+.cmp-video .vjs-transcript-control {
+  padding-bottom: 25px;
+}
+
+.video-js .vjs-current-time, .video-js .vjs-duration{
+  display: inline-block;
+}
+
+.vjs-time-divider {
+  display: inline-block;
+}
