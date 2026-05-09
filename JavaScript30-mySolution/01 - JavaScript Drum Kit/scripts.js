@@ -27,7 +27,6 @@ function getDataKey() {
             return;
         }
         let clickedKeyValue = clickedkey.dataset.key;
-        console.log(clickedKeyValue)
         playAudio(clickedKeyValue)
     })
 
